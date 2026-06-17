@@ -6,11 +6,11 @@ void printHelloWorld()
     std::cout << "hello world" << std::endl;
 }
 
-int main()
-{
+// int main()
+// {
 
-    std::thread thread_1(printHelloWorld);
-    thread_1.join();
+//     std::thread thread_1(printHelloWorld);
+//     thread_1.join();
 
-    return 0;
-}
+//     return 0;
+// }
